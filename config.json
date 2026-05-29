@@ -1,0 +1,24 @@
+{
+  "$schema": null,
+  "statusFile": "~/.traffic-light/status.json",
+  "sound": {
+    "enabled": true,
+    "files": {
+      "running": "C:\\Windows\\Media\\Windows Hardware Fail.wav",
+      "waiting": "C:\\Windows\\Media\\Windows Message Nudge.wav",
+      "stopped": "C:\\Windows\\Media\\Windows Balloon.wav"
+    }
+  },
+  "window": {
+    "x": 100,
+    "y": 100
+  },
+  "tools": ["opencode"],
+  "patternMap": {
+    "init": 4,
+    "prompt": 3,
+    "generating": 5,
+    "tool": 1,
+    "idle": 4
+  }
+}
